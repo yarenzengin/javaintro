@@ -2,7 +2,7 @@
 public class Main {
     public static void main(String[] args) {
      //kaydolduk
-    Kullanici yaren = new Kullanici("yarenzengin65@gmail.com",9655,"yaren zengin ", "yarn.zengn", 2002,"kadın","şifre");
+    Kullanici yaren = new Kullanici("yaren@gmail.com",8976,"yaren zengin ", "yarennn", 1999,"kadın","şifre");
           /*//bilgileri göster
     yaren.kisaBilgiGoster();
         //oturumu kapat 
@@ -11,17 +11,17 @@ public class Main {
         
         yaren.kisaBilgiGoster();
         
-        yaren.oturumAc("yarn.zengn","şifre");
+        yaren.oturumAc("yarennn","şifre");
         //bilgileri tekrar göster
         yaren.kisaBilgiGoster();
         
         
         
-      yaren.kullaniciAdiDegistir("yarennn");
+      yaren.kullaniciAdiDegistir("yaren");
       yaren.kisaBilgiGoster();
       yaren.satisYap();*/
         yaren.oturumuKapat();
-        yaren.oturumAc("yarn.zengn", "şifre");
+        yaren.oturumAc("yarennn", "şifre");
         yaren.satisYap();
     }
           
